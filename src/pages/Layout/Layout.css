@@ -1,0 +1,86 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    max-height: 15vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #f2f2f2;
+}
+
+.navbar {
+    height: 12vh;
+}
+
+.hero.is-fullheight {
+    height: 88vh;
+}
+
+.navbar-start a{
+    font-weight: 500;
+    color: grey;
+    display: flex;
+}
+
+.navbar-item img {
+    max-height: initial;
+    aspect-ratio: auto;
+    height: 100%;
+    width: auto;
+}
+
+/* .navbar-item, .navbar-link{
+    display: block;
+} */
+
+@media screen and (min-width: 1024px){
+    .navbar-item, .navbar-link {
+        min-width: 7rem;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1023px) {
+    .navbar-brand{
+        height: 12vh;
+    }
+    .navbar-burger{
+        height: 100%;
+    }
+    .navbar-start a .navbar-item {
+        text-align: center;
+    }
+}
