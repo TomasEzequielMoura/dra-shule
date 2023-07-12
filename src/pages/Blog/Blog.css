@@ -160,6 +160,11 @@
 }
 
 
+@media (max-width: 1200px) {
+    .container-blog {
+        gap: 80px 40px;
+    }
+}
 
 @media (max-width: 480px) {
     .container-blog .card {
@@ -178,5 +183,10 @@
 
     .container-blog .card .content a {
         font-size: 0.9rem;
+    }
+
+    .content h2 {
+        font-size: 1.75em;
+        margin-bottom: 0.7714em;
     }
 }
