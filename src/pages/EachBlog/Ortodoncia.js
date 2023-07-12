@@ -23,13 +23,13 @@ const Ortodoncia = () => {
                                 <div className="content article-body">
                                     <h3 className="has-text-centered">ORTODONCIA</h3>
                                     <div className='flow-root'>
-                                        <img src={mordermal} />
+                                        <img src={mordermal} alt="Morder Mal"/>
                                         <h5>¿Qué es morder mal?</h5>
                                         <p>En una mordida armónica o "ideal", los dientes superiores están levemente por delante y cubren los bordes de los inferiores</p>
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={mordidacruzada} />
+                                        <img src={mordidacruzada} alt="Mordida Cruzada"/>
                                         <h5>Mordida Cruzada</h5>
                                         <p>Es similar a querer poner la tapa
                                             a una caja demasiado larga o
@@ -39,7 +39,7 @@ const Ortodoncia = () => {
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={mordidaabierta} />
+                                        <img src={mordidaabierta} alt="Mordida Abierta"/>
                                         <h5>Mordida Abierta</h5>
                                         <p>La succión digital hace que los dientes superiores se corran hacia fuera y los incisivos inferiores hacia atrás.La respiración bucal y la mala ubicación de la lengua hace que los incisivos superiores e inferiores vayan hacia delante. Estas son todas causas de mordida abierta y tambien por problemas de crecimiento.</p>
                                     </div>

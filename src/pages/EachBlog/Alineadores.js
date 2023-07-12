@@ -20,7 +20,7 @@ const Alineadores = () => {
                                 </div>
                                 <div className="content article-body">
                                     <h3 className="has-text-centered">ALINEADORES INVISIBLES</h3>
-                                    <img src={alineadores} />
+                                    <img src={alineadores} alt="alineadores"/>
 
                                     <p>Los alineadores invisibles son férulas de ortodoncia que, a diferencia de los sistemas
                                         tradicionales, son casi imperceptibles, cómodos y no requieren del cementado de bráquets

@@ -26,22 +26,22 @@ const Limpieza = () => {
                                 <div className="content article-body">
                                     <h3 className="has-text-centered">¿CÓMO DEBES LIMPIARTE LOS DIENTES?</h3>
                                     <div className='flow-root'>
-                                        <img src={paso1} />
+                                        <img src={paso1} alt="Paso 1: Limpieza de dientes"/>
                                         <p>1. Enjuaga minuciosamente tu boca con agua tibia. Luego coloca una porción de pasta de dientes de aproximadamente un centímetro sobre el cepillo de dientes.</p>
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={paso2} />
+                                        <img src={paso2} alt="Paso 2: Limpieza de dientes"/>
                                         <p>2. Primero cepilla hacia adelante la zona de los dientes con los que masticas, en la parte superior.</p>
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={paso3} />
+                                        <img src={paso3} alt="Paso 3: Limpieza de dientes"/>
                                         <p>3. Luego cepilla de la misma manera la zona de los dientes con la que masticas pero de la parte inferior.</p>
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={paso4} />
+                                        <img src={paso4} alt="Paso 4: Limpieza de dientes"/>
                                         <p>4. Junta los dientes y limpia la superficie de todos los dientes de la derecha. Comienza con la superficie externa de las muelas de la derecha y cepilla en pequeños movimientos adelante y hacia el medio.</p>
                                     </div>
                                     <hr />
@@ -54,7 +54,7 @@ const Limpieza = () => {
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={paso7} />
+                                        <img src={paso7} alt="Paso 7: Limpieza de dientes"/>
                                         <p>7. De la misma manera cepilla la cara interna de todos los dientes de abajo. También tu lengua, pues allí también hay bacterias.</p>
                                     </div>
                                     <hr />
@@ -63,7 +63,7 @@ const Limpieza = () => {
                                     </div>
                                     <hr />
                                     <div className='flow-root'>
-                                        <img src={paso9} />
+                                        <img src={paso9} alt="Paso 9: Limpieza de dientes"/>
                                         <p>9. ¡Ahora tus dientes resplandecen!</p>
                                     </div>
                                 </div>

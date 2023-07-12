@@ -12,7 +12,7 @@ const Layout = () => {
         <nav className="navbar container-simil-bootstrap" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item" href="/" >
-              <img src={logo} />
+              <img src={logo} alt="Logo Dra. Shule"/>
             </a>
             <a role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => {
               setisActive(!isActive);

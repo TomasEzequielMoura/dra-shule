@@ -11,7 +11,7 @@ const Blog = () => {
         <div className="container-blog container-simil-bootstrap">
           <div className="card">
             <div className="img-box">
-              <img src={alineadores} />
+              <img src={alineadores} alt="alineadores"/>
             </div>
             <div className="content">
               <div>
@@ -31,7 +31,7 @@ const Blog = () => {
           </div>
           <div className="card">
             <div className="img-box">
-              <img src={limpieza} />
+              <img src={limpieza} alt="limpieza"/>
             </div>
             <div className="content">
               <div>
@@ -49,7 +49,7 @@ const Blog = () => {
           </div>
           <div className="card">
             <div className="img-box">
-              <img src={ortodoncia} />
+              <img src={ortodoncia} alt="ortodoncia"/>
             </div>
             <div className="content">
               <div>
