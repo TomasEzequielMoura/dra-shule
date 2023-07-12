@@ -2,6 +2,11 @@ import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import './Layout.css';
 import logo from '../../assets/images/logobase.jpg'; // Tell webpack this JS file uses this image
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faInstagram)
 
 const Layout = () => {
 
@@ -23,9 +28,10 @@ const Layout = () => {
             </a>
           </div>
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
-            <div className="navbar-start">
+
+            <div className="navbar-end">
               <a className="navbar-item" href="/">
-                Home
+                Inicio
               </a>
               <a className="navbar-item" href="/blog">
                 Blog
@@ -33,6 +39,11 @@ const Layout = () => {
               <a className="navbar-item" href="/contact">
                 Contactanos
               </a>
+            </div>
+            <div className="effect aeneas">
+              <div className="buttons">
+                <a href="https://instagram.com/align.arg?igshid=NjIwNzIyMDk2Mg==" target="_blank" className="insta" title="Join us on Instagram"><FontAwesomeIcon icon={faInstagram} style={{ color: "white", }} size='lg' /></a>
+              </div>
             </div>
           </div>
 

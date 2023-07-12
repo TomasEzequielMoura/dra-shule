@@ -22,7 +22,7 @@ const Blog = () => {
                   ni otros aparatos ortopédicos.
                 </p>
               </div>
-              <div class="btn-one">
+              <div className="btn-one">
                 <a target="_blank" href="/blog/alineadores">
                   <span>¡Leer más!</span>
                 </a>
@@ -40,7 +40,7 @@ const Blog = () => {
                   Aprende a cepillarte correctamente, utiliza el hilo dental y enjuague bucal para una limpieza completa. Descubri la mejor forma de mantener tus dientes limpios y saludables.
                 </p>
               </div>
-              <div class="btn-one">
+              <div className="btn-one">
                 <a target="_blank" href="/blog/limpieza">
                   <span>¡Leer más!</span>
                 </a>
@@ -58,7 +58,7 @@ const Blog = () => {
                   Conseguí la sonrisa perfecta con nuestra ortodoncia. Corregimos problemas dentales y faciales para alinear tus dientes y mejorar tu bienestar bucal.
                 </p>
               </div>
-              <div class="btn-one">
+              <div className="btn-one">
                 <a target="_blank" href="/blog/ortodoncia">
                   <span>¡Leer más!</span>
                 </a>

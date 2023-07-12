@@ -52,6 +52,15 @@ header {
     min-height: auto;
 }
 
+#navbarBasicExample .navbar-end{
+    height: 100%;
+    margin-left: auto;
+    margin-right: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #navbarBasicExample .navbar-start{
     height: 100%;
     margin-left: auto;
@@ -71,7 +80,7 @@ header {
     height: 88vh;
 }
 
-.navbar-start a{
+.navbar-end a{
     font-weight: 500;
     color: grey;
     display: flex;
@@ -86,6 +95,71 @@ header {
     display: block;
 } */
 
+.effect {
+    width: 100%;
+    display: flex;
+}
+
+/* .effect h2 .effect:nth-child(2) {
+    margin-top: 50px;
+} */
+.effect h2 .effect .buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.effect h2 .effect a:last-child {
+    margin-right: 0px;
+}
+/* .effect:nth-child(2) {
+    margin-top: 50px;
+} */
+.effect a:last-child {
+    margin-right: 0px;
+}
+
+.effect i {
+    position: relative;
+    z-index: 3;
+}
+.effect.insta {
+    background-color: #bc2a8d;
+}
+
+.effect.aeneas a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.effect.aeneas a i {
+    transition: transform 0.4s linear 0s;
+}
+.effect.aeneas a:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.effect.aeneas a:hover i {
+    transform: rotate(-360deg);
+}
+
+.insta{
+    background: #4ec9e5;
+    padding: 10px;
+}
+
+.insta svg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 1px;
+}
+
+.buttons:last-child {
+    margin-bottom: 0rem;
+}
+
+
+
+
+
 @media screen and (min-width: 1024px){
     .navbar-item, .navbar-link {
         min-width: 7rem;
@@ -97,10 +171,11 @@ header {
         position: absolute;
         right: 0;
         height: 100%;
-        align-items: center;
+        /* align-items: center; */
         align-content: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
+
 
 }
 
@@ -119,12 +194,21 @@ header {
         height: 2px;
     }
 
-    .navbar-start a {
+    .navbar-end a {
         justify-content: center;
     }
 
     .navbar-brand a.navbar-item {
         width: 100%;
+        justify-content: center;
+    }
+
+    
+    .navbar-menu{
+        box-shadow: 0 0px 0px rgba(10,10,10,.1);
+    }
+
+    .buttons{
         justify-content: center;
     }
 }
