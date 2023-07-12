@@ -29,12 +29,12 @@ const Layout = () => {
                   Home
                 </a>
               </Link>
-              <Link to="/Blog">
+              <Link to="/blog">
                 <a className="navbar-item">
                   Blog
                 </a>
               </Link>
-              <Link to="/Contact">
+              <Link to="/contact">
                 <a className="navbar-item">
                   Contactanos
                 </a>
