@@ -1,0 +1,35 @@
+.card-content{
+    background: #3e8fcd47;
+}
+
+.article-body img{
+    float: right;
+    padding: 0 0 0 0.5rem;
+    border-radius: 50%;
+}
+
+.limpieza .article-body img {
+    float: right;
+    padding: 0 0 0 0.5rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
+.flow-root{
+    display: flow-root;
+}
+
+@media (min-width: 1737px) {
+    .container-blog .card .content h2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .article-body img{
+        width: 50%;
+    }
+}

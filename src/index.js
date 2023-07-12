@@ -22,8 +22,11 @@ import Layout from "./pages/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
+import Alineadores from "./pages/EachBlog/Alineadores";
+import Ortodoncia from "./pages/EachBlog/Ortodoncia";
+import Limpieza from "./pages/EachBlog/Limpieza";
 import NoPage from "./pages/NotFound/NotFound";
-
+import './General.css';
 
 export default function App() {
   return (
@@ -32,6 +35,9 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/alineadores" element={<Alineadores />} />
+          <Route path="blog/ortodoncia" element={<Ortodoncia />} />
+          <Route path="blog/limpieza" element={<Limpieza />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>

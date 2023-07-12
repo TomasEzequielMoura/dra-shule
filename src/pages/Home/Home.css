@@ -1,11 +1,10 @@
 .bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/home.jpg");
-    height: 88vh;
+    flex: 1;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
 }
 
 .title {

@@ -18,12 +18,12 @@ main {
 	width: calc(100% - 3em);
     height: 88vh;
 }
-h1 {
+.not-found h1 {
 	font-size: 3em;
 	line-height: 1;
 	margin: 0 0 1.5rem;
 }
-p {
+.not-found p {
 	margin: 0 0 1.5em;
 }
 .btn-link {

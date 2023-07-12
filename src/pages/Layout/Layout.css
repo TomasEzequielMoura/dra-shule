@@ -4,7 +4,7 @@ header {
     padding: 20px 0;
     max-height: 15vh;
 }
-
+/* 
 .container {
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@ header {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
-}
+} */
 
 .logo {
     font-size: 24px;
@@ -40,8 +40,31 @@ header {
     color: #f2f2f2;
 }
 
-.navbar {
+/* .navbar {
     height: 12vh;
+} */
+
+.border-bottom{
+    border-bottom: 2px solid #4ec9e5;
+}
+
+.navbar {
+    min-height: auto;
+}
+
+#navbarBasicExample .navbar-start{
+    height: 100%;
+    margin-left: auto;
+    margin-right: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .hero.is-fullheight {
@@ -57,8 +80,6 @@ header {
 .navbar-item img {
     max-height: initial;
     aspect-ratio: auto;
-    height: 100%;
-    width: auto;
 }
 
 /* .navbar-item, .navbar-link{
@@ -71,16 +92,39 @@ header {
         text-align: center;
         justify-content: center;
     }
+    #navbarBasicExample{
+        display: flex;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width: 1023px) {
-    .navbar-brand{
-        height: 12vh;
+    .navbar {
+        height: auto;
+        min-height: auto;
     }
     .navbar-burger{
         height: 100%;
+        position: absolute;
+        right: 0;
     }
-    .navbar-start a .navbar-item {
-        text-align: center;
+
+    .navbar-burger span {
+        height: 2px;
+    }
+
+    .navbar-start a {
+        justify-content: center;
+    }
+
+    .navbar-brand a.navbar-item {
+        width: 100%;
+        justify-content: center;
     }
 }

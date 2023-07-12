@@ -1,10 +1,9 @@
 import React from 'react'
-import '../General.css';
 import JotformEmbed from 'react-jotform-embed';
 
 const Contact = () => {
   return (
-    <>
+    <section >
       {/* <section className="hero is-fullheight">
         <div className="hero-body">
           <div className="container has-text-centered">
@@ -45,7 +44,7 @@ const Contact = () => {
         </div>
       </section> */}
       <JotformEmbed src="https://form.jotform.com/231907216410649" />
-    </>
+    </section>
   )
 }
 
