@@ -98,6 +98,7 @@ header {
 .effect {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 /* .effect h2 .effect:nth-child(2) {
