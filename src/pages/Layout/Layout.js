@@ -12,7 +12,7 @@ const Layout = () => {
         <nav className="navbar container-simil-bootstrap" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item" href="/" >
-              <img src={logo} alt="Logo Dra. Shule"/>
+              <img src={logo} alt="Logo Dra. Shule" />
             </a>
             <a role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => {
               setisActive(!isActive);
@@ -24,21 +24,15 @@ const Layout = () => {
           </div>
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
             <div className="navbar-start">
-              <Link to="/">
-                <a className="navbar-item">
-                  Home
-                </a>
-              </Link>
-              <Link to="/blog">
-                <a className="navbar-item">
-                  Blog
-                </a>
-              </Link>
-              <Link to="/contact">
-                <a className="navbar-item">
-                  Contactanos
-                </a>
-              </Link>
+              <a className="navbar-item" href="/">
+                Home
+              </a>
+              <a className="navbar-item" href="/blog">
+                Blog
+              </a>
+              <a className="navbar-item" href="/contact">
+                Contactanos
+              </a>
             </div>
           </div>
 
