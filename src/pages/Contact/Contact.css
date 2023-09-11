@@ -27,7 +27,7 @@
     color: #f07f7f;
     font-size: 0.7rem;
     position: relative;
-    bottom: 4px;
+    bottom: 2px;
 }
 
 .msg-sent p {
@@ -171,7 +171,7 @@
     }
 
     .contact .field {
-        margin-bottom: 1rem;
+        margin-bottom: 0.2rem;
     }
 
     .container-contact{
