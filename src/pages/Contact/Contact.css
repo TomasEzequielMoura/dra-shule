@@ -26,6 +26,8 @@
 .contact .errorMessage {
     color: #f07f7f;
     font-size: 0.7rem;
+    position: relative;
+    bottom: 4px;
 }
 
 .msg-sent p {
@@ -77,6 +79,12 @@
 
 .contact .label {
     color: white;
+    font-size: 0.9rem;
+}
+
+.textarea,
+.contact input.input {
+    font-size: 0.85rem;
 }
 
 .contact .columns:last-child {
@@ -132,8 +140,9 @@
 }
 
 .columns .column .control {
-    height: 70px;
+    height: 60px;
 }
+
 #contact-form .input::placeholder,
 #contact-form .textarea::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(160, 160, 160);
