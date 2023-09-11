@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
-.is-fullheight{
+.is-fullheight {
   min-height: 90vh !important;
 }
+
+

@@ -4,6 +4,7 @@ header {
     padding: 20px 0;
     max-height: 15vh;
 }
+
 /* 
 .container {
     display: flex;
@@ -44,7 +45,7 @@ header {
     height: 12vh;
 } */
 
-.border-bottom{
+.border-bottom {
     border-bottom: 2px solid #4ec9e5;
 }
 
@@ -52,7 +53,7 @@ header {
     min-height: auto;
 }
 
-#navbarBasicExample .navbar-end{
+#navbarBasicExample .navbar-end {
     height: 100%;
     margin-left: auto;
     margin-right: initial;
@@ -61,7 +62,7 @@ header {
     justify-content: center;
 }
 
-#navbarBasicExample .navbar-start{
+#navbarBasicExample .navbar-start {
     height: 100%;
     margin-left: auto;
     margin-right: initial;
@@ -70,7 +71,7 @@ header {
     justify-content: center;
 }
 
-.navbar-brand{
+.navbar-brand {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -80,11 +81,16 @@ header {
     height: 88vh;
 }
 
-.navbar-end a{
+.navbar-end a {
     font-weight: 500;
     color: grey;
     display: flex;
 }
+
+.navbar-end a:hover {
+    color: #4ec9e5;
+}
+
 
 .navbar-item img {
     max-height: initial;
@@ -109,9 +115,11 @@ header {
     display: flex;
     justify-content: center;
 }
+
 .effect h2 .effect a:last-child {
     margin-right: 0px;
 }
+
 /* .effect:nth-child(2) {
     margin-top: 50px;
 } */
@@ -123,6 +131,7 @@ header {
     position: relative;
     z-index: 3;
 }
+
 .effect.insta {
     background-color: #bc2a8d;
 }
@@ -130,23 +139,26 @@ header {
 .effect.aeneas a {
     transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
 }
+
 .effect.aeneas a i {
     transition: transform 0.4s linear 0s;
 }
+
 .effect.aeneas a:hover {
     transform: rotate(360deg);
     border-radius: 50%;
 }
+
 .effect.aeneas a:hover i {
     transform: rotate(-360deg);
 }
 
-.insta{
+.insta {
     background: #4ec9e5;
     padding: 10px;
 }
 
-.insta svg{
+.insta svg {
     width: 30px;
     height: 30px;
     position: relative;
@@ -161,13 +173,16 @@ header {
 
 
 
-@media screen and (min-width: 1024px){
-    .navbar-item, .navbar-link {
+@media screen and (min-width: 1024px) {
+
+    .navbar-item,
+    .navbar-link {
         min-width: 7rem;
         text-align: center;
         justify-content: center;
     }
-    #navbarBasicExample{
+
+    #navbarBasicExample {
         display: flex;
         position: absolute;
         right: 0;
@@ -185,7 +200,8 @@ header {
         height: auto;
         min-height: auto;
     }
-    .navbar-burger{
+
+    .navbar-burger {
         height: 100%;
         position: absolute;
         right: 0;
@@ -204,12 +220,12 @@ header {
         justify-content: center;
     }
 
-    
-    .navbar-menu{
-        box-shadow: 0 0px 0px rgba(10,10,10,.1);
+
+    .navbar-menu {
+        box-shadow: 0 0px 0px rgba(10, 10, 10, .1);
     }
 
-    .buttons{
+    .buttons {
         justify-content: center;
     }
 }

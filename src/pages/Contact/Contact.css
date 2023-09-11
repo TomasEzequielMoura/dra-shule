@@ -1,0 +1,201 @@
+.contact .button-creative.button-primary-creative {
+    margin: auto;
+}
+
+.contact {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.contact .contacto-data p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.contact p svg {
+    color: #53c6e3;
+    width: 40px;
+}
+
+.contact .errorMessage {
+    color: #f07f7f;
+    font-size: 0.8rem;
+}
+
+.msg-sent p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    color: white;
+}
+
+.msg-sent {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.msg-sent p svg {
+    width: 100px;
+}
+
+.form-size {
+    width: 100%;
+    text-align: center;
+    max-width: 600px;
+}
+
+.container-contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+}
+
+.contact .title {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.contact .label {
+    color: white;
+}
+
+.contact .columns:last-child {
+    margin-bottom: 0rem;
+}
+
+.contacto-data{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto-data p a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.contact form button{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-width: 200px;
+    margin-top: 1.5rem;
+}
+
+.contact .btn-epic{
+    display: flex;
+}
+
+.contact .btn-epic div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact a.btn-epic {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contact{
+    margin-bottom: 2rem;
+}
+
+.column{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.columns .column .control {
+    height: 70px;
+}
+#contact-form .input::placeholder,
+#contact-form .textarea::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(160, 160, 160);
+    opacity: 1; /* Firefox */
+}
+
+@media (max-width: 1023px) {
+    .contact .d-flex-centrado {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .contacto-data {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-contact{
+        flex-direction: column;  
+    }
+
+    .contacto-data {
+        flex-direction: column;
+
+    }
+
+    .contact .field {
+        margin-bottom: 1rem;
+    }
+
+    .container-contact{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+        margin-bottom: 2rem !important;
+    }
+
+    .contact .subtitle {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact-form{
+        padding: 0 1.6rem;
+    }
+
+    .contact .contacto-data p{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .contact form button {
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact .contacto-data p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact .title {
+        font-size: 2.4rem;
+    }
+}

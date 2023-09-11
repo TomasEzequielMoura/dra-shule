@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import './Layout.css';
 import logo from '../../assets/images/logobase.jpg'; // Tell webpack this JS file uses this image
 import { library } from '@fortawesome/fontawesome-svg-core'
